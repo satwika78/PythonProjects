@@ -78,7 +78,7 @@ if __name__ == "__main__":
             print(strtime)
             speak(f"the time is {strtime}")
         elif 'open vscode' in query:
-            codepath = "C:\\Users\\satwika\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            codepath = "C:\\Users\\username\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(codepath)
         elif 'send email' in query:
             try:
